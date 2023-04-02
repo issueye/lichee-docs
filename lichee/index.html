@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>lichee | issueye</title>
+    <meta name="generator" content="VuePress 1.9.9">
+    
+    <meta name="description" content="lichee 一个运行 javascript 脚本的小工具">
+    <meta name="lichee" content="super duper SEO">
+    
+    <link rel="preload" href="/lichee-docs/assets/css/0.styles.66073355.css" as="style"><link rel="preload" href="/lichee-docs/assets/js/app.35704878.js" as="script"><link rel="preload" href="/lichee-docs/assets/js/2.c1b6dfcf.js" as="script"><link rel="preload" href="/lichee-docs/assets/js/6.56657e00.js" as="script"><link rel="prefetch" href="/lichee-docs/assets/js/10.898d792e.js"><link rel="prefetch" href="/lichee-docs/assets/js/11.19af0978.js"><link rel="prefetch" href="/lichee-docs/assets/js/3.9d3c2a49.js"><link rel="prefetch" href="/lichee-docs/assets/js/4.b9840057.js"><link rel="prefetch" href="/lichee-docs/assets/js/5.d6d9e157.js"><link rel="prefetch" href="/lichee-docs/assets/js/7.1507eaf7.js"><link rel="prefetch" href="/lichee-docs/assets/js/8.eda2c0e8.js"><link rel="prefetch" href="/lichee-docs/assets/js/9.ddbab7b3.js">
+    <link rel="stylesheet" href="/lichee-docs/assets/css/0.styles.66073355.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/lichee-docs/" class="home-link router-link-active"><!----> <span class="site-name">issueye</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/lichee-docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/lichee-docs/lichee/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  lichee
+</a></div><div class="nav-item"><a href="/lichee-docs/project/" class="nav-link">
+  项目实战
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/lichee-docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/lichee-docs/lichee/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  lichee
+</a></div><div class="nav-item"><a href="/lichee-docs/project/" class="nav-link">
+  项目实战
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/lichee-docs/lichee/start/" class="sidebar-heading clickable open"><span>使用指南</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/lichee-docs/lichee/start/download/" class="sidebar-link">lichee 下载</a></li><li><a href="/lichee-docs/lichee/start/download/" class="sidebar-link">添加到环境变量</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><div align="center"><img src="/lichee-docs/assets/img/lichee.9d091d76.png" width="100" height="100"></div> <h1 id="lichee-一个运行-javascript-脚本的小工具"><a href="#lichee-一个运行-javascript-脚本的小工具" class="header-anchor">#</a> lichee 一个运行 javascript 脚本的小工具</h1> <p>有效的获取lichee有两种方式，通过下载源码编译出二进制或着直接直接下载二进制文件</p> <ul><li>下载源代码并且进行编译</li></ul> <div class="custom-block warning"><p class="custom-block-title">WARNING</p> <p>下载源代码编译需要提前安装 <code>git</code> <code>golang</code> 环境</p> <p><code>git</code>工具用于获取代码和代码管理</p> <p>因为 <code>lichee</code> 采用 <code>golang</code> 语言进行编写，所以在编译时需要对应的 <code>golang</code> 编译环境</p> <p><code>go mod</code> 中使用的 <code>golang</code> 版本是 <code>1.18</code> 建议安装 <code>1.18</code> 或以上版本</p> <p>注：如果是开发人员建议可以安装 <code>golang</code> 的版本管理工具 <code>g</code> 便于对 <code>golang</code> 版本的切换</p></div> <ol><li>执行以下代码获取源代码</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code><span class="token function">git</span> clone https://github.com/issueye/lichee.git
+</code></pre></div><ol start="2"><li>进入到项目目录下</li></ol> <div class="custom-block tip"><p class="custom-block-title">TIP</p> <p>这里小编的开发环境是 <code>windows</code> 对应的编译脚本是 <code>bat</code> 的，如有开发能力的可以自行参照脚本修改为对应的操作系统脚本</p></div> <ol start="3"><li>编译对应操作操作系统下的二进制文件，即可获取对应系统的二进制文件</li></ol> <div class="language-bash extra-class"><pre class="language-bash"><code>build-windows.bat
+
+build-linux.bat
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/lichee-docs/assets/js/app.35704878.js" defer></script><script src="/lichee-docs/assets/js/2.c1b6dfcf.js" defer></script><script src="/lichee-docs/assets/js/6.56657e00.js" defer></script>
+  </body>
+</html>

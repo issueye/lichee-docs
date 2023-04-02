@@ -1,7 +1,7 @@
 module.exports = {
     title: 'issueye',
     description: '欢迎来到我的博客',
-    base: '/',
+    base: '/lichee-docs/',
     themeConfig: {
         nav: [
             { text: "首页", link: "/" },
