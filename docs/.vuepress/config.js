@@ -1,6 +1,7 @@
 module.exports = {
     title: 'issueye',
     description: '欢迎来到我的博客',
+    base: '/',
     themeConfig: {
         nav: [
             { text: "首页", link: "/" },
